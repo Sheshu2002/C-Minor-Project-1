@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background-color: #FFCD9E;
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    padding-right: 50px;
+    
+
+}
+img{
+    height: 75vh;
+}
+h1{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    line-height: 48px;
+    font-size: 36px;
+}
+p{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: #484848;
+    line-height: 30px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+h2{
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.matter{
+    margin-left: 130px;
+    margin-top: 20px;
+    
+    
+}
+#btn{
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 216px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+#mail{
+    border: 4px solid black;
+    border-radius: 8px;
+    width: 344px;
+    height: 60px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px;
+    
+}
+.spam p{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+}
+.logo img{
+    height: 26px;
+    width: 26px;
+}
+.footer{
+    color: white;
+    background-color: black;
+    display: flex;
+    height: 30vh;
+    width: 100vw;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+ul{
+    list-style: none;
+    
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
